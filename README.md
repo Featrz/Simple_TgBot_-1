@@ -1,2 +1,2 @@
-# Simple_TgBot_-1
-Just practice in coding TgBots
+This code uses modules such as: telegrambotapi  ;   time
+Only the first one needs to be downloaded
