@@ -1,6 +1,6 @@
 import telebot
 import time
-bot = telebot.TeleBot('1665076354:AAE5OZf-msnItEipp3PJYP0jFecIq8LDvNk')
+bot = telebot.TeleBot('')
 @bot.message_handler(commands=['start'])
 def sendWelcome(message):
     bot.reply_to(message, 'Что-то хотели? /help  /rules')
@@ -42,8 +42,8 @@ def get_text(message):
                                           "\n"
                                         "\n If you want, you can checkout a few examples by using command - /start"
                         .format(user.id, user.first_name), parse_mode='html', disable_web_page_preview=1)
-# -1001429919221
-GROUP_ID = bot.get_chat('-1001429919221')
+# 
+GROUP_ID = bot.get_chat('')
 banlist = ['бля','сука','даун','даунич','пидор','пидорас','пидорок','гандон','пидорок','хуй','хуек','хуёк','хуесос','еблан','ебать','пиздец','пизда','ебанат']
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
