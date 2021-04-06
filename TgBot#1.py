@@ -11,7 +11,7 @@ def sendWelcome(message):
             bot.send_message(message.chat.id,
                              "Это чат нашего веб-магазина"
                              "\n Посетить наши ресурсы --> <a href=\"https://info-k.ru\"> Подготовка к ЕГЭ</a>.\n"
-                             # "Ознакомься пожалуйста с <a href=\"https://t.me/it_na_divane/3853\"> Правилами </a>"
+                             # "Ознакомься пожалуйста с <a href=\"\"> Правилами </a>"
                              "\n Также вы можете посетить наш курс --> <a href=\"https://xproit.ru\"> PythonProgramming </a>"
                              "\n"
                              "\n Если вы хотите ознакомиться с правилами чата и не получить блокировку, то - /rules"
