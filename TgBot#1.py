@@ -37,7 +37,7 @@ def get_text(message):
         bot.send_message(message.chat.id, "&#128075 Welcome, <a href=\"tg://user?id={0}\">. {1} </a> We are happy to see a new member!\n\n"
                                         "It's our store chat "
                                          "\n U can checkout our website --> <a href=\"https://info-k.ru\"> Prepare for the EGE</a>.\n"
-                                         #"Ознакомься пожалуйста с <a href=\"https://t.me/it_na_divane/3853\"> Правилами </a>"
+                                         #"Ознакомься пожалуйста с <a href=\"\"> Правилами </a>"
                                           "\nAlso u can check our web Courses here --> <a href=\"https://xproit.ru\"> PythonCourse </a>"
                                           "\n"
                                         "\n If you want, you can checkout a few examples by using command - /start"
